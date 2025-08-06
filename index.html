@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'>
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id='title'>Survey Form</h1>
+    <p id='description'>Your opinion matters, help us make this a better company</p>
+    <form id='survey-form'>
+      <fieldset>
+      <label id='name-label'  for='name'>Name: <input id='name' class='info' type='text' placeholder='Enter your name' required></label>
+      <label id='email-label'  for='email'>Email: <input id='email' class='info' type='email' placeholder='Enter your email address' required></label>
+      <label id='number-label'  for='number'>Age: <input id='number' class='info' type='number' placeholder='age' min='18' max='130' required></label>
+      </fieldset>
+      <fieldset>
+      <label for='dropdown' class='questions'>How did you hear about us?  
+      <select id='dropdown'>
+        <option>(select one)</option>
+        <option>Newspaper</option>
+        <option>TV add</option>
+        <option>Internet advertisement</option>
+      </select></label>
+      <label for='radio' class='questions' >Would you recommend us to a friend?</label> 
+      <label><input type='radio' value='a' name='recommend' checked > Yes </label>
+      <label><input type='radio' value='b' name='recommend'> No </label>
+      <label><input type='radio' value='c' name='recommend'> Maybe </label>
+      <label class='questions' for='Checkbox'>What do you like about our company?</label> 
+      <label><input type='Checkbox' value='1' checked> Hire more workers </label>
+      <label><input type='Checkbox' value='2'> Better wages </label>
+      <label><input type='Checkbox' value='3'> Better retention rate </label>
+      <label><input type='Checkbox' value='4'> Better Customer Service </label>
+      <label><input type='Checkbox' value='5'> More employee recognition </label>
+      </fieldset>
+      <fieldset>
+        <label>Leave any Concerns you may have:
+          <textarea id='concerns' name='concerns' rows='5' cols='55' placeholder='write your concerns here...'></textarea>
+        </label>
+        <input id='submit' type=submit>
+
+  </body>
+</html>
