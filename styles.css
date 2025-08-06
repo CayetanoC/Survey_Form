@@ -1,0 +1,65 @@
+h1 {
+  text-align: center;
+  font-size: 45px;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  font-size: 16px;
+  background-color: #b5dafe;
+  color: #002050;
+  font-family: Tahoma
+}
+#description {
+  margin: 0;
+  padding: 0 0 1em 0;
+  text-align: center;
+}
+fieldset {
+  border: none;
+  padding: 1rem 0 0 0
+}
+::placeholder {
+  color: white;
+}
+input, textarea, select{
+  background-color: #6db6ff;
+  color: white;
+}
+label {
+  display: block;
+  padding: 0.3em;
+}
+.questions {
+  margin: 1em 0 0 0;
+}
+textarea {
+  display: block
+}
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+input[type="submit"] {
+  display: block;
+  width: 40%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #0b72d7;
+  border-color: white;
+  min-width: 300px;
+}
+input[type="file"] {
+  padding: 1px 2px;
+}
+.info {
+  margin: 0 0 0 1em;
+}
+#number {
+  margin: 0 0 0 2em;
+}
